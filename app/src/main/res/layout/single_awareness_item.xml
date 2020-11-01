@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/imgCNT"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:src="@drawable/tunisia" />-->
+            <ImageView
+                android:id="@+id/imgCNT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_alcohol" />
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:layout_weight="4"
+                android:text="Alcohol"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/dark_blue"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/linear"
+            android:background="@color/orange" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

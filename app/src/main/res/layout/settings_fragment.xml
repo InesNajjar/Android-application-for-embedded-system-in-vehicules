@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:fontFamily="@font/poppins_regular"
+            android:text="In order to ensure your security please set the number of whom you want to call in case of an emergency detected"
+            android:textColor="#121C75"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/familynumber"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:fontFamily="@font/poppins_regular"
+            android:hint="@string/family_or_friend_number"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/saveb"
+            android:layout_width="320dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/loginbtn"
+            android:text="@string/save"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</RelativeLayout>

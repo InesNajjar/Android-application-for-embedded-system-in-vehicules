@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "452758830538",
+    "firebase_url": "https://raspberrydb-c49c8.firebaseio.com",
+    "project_id": "raspberrydb-c49c8",
+    "storage_bucket": "raspberrydb-c49c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452758830538:android:1144b7aef25df2c3146333",
+        "android_client_info": {
+          "package_name": "embeddedmajesty.driveawake10.pisleam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452758830538-4hutdkld2chgb7r1k2vcoln0a33rn54o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "embeddedmajesty.driveawake10.pisleam",
+            "certificate_hash": "02b612ad2e4b51d1074a502ea8af798db26079e2"
+          }
+        },
+        {
+          "client_id": "452758830538-rpnd8ej6j8lth7310e2hjqpk50vk243e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvPEJlhnt2Huc7oYy4aWWu5C68AEfbKaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452758830538-rpnd8ej6j8lth7310e2hjqpk50vk243e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+package embeddedmajesty.driveawake10.pisleam.model;
+
+import android.graphics.drawable.Drawable;
+
+public class SliderItem {
+    private String description;
+    private int imageUrl;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public int getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(int imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+}
